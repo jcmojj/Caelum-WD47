@@ -19,3 +19,4 @@
     });
   });
 })(controladorDeCartoes)
+var ajudaPraVerNoGit = 0;
