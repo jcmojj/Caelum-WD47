@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/*nao pega todo mundo.. nao pega os filhos */
+
+body{
+  font-family: Arial, Roboto,sans-serif; /* fall-back -> se nao tem no browser ele pega o proximo*/
+  font-size: 16px;
+  color: black;
+}
+/*pega todo mundo*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*porque o atributo font-family tem um atributo que diz PEGA DO PAI*/
+/* inherit procura o valor de propriedade do pai*/
+/* INHERIT */
+
+
+
+/* CSS DO BROWSER
+a{
+  color:# 00F;
+}
+
+p{
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+
+
+
+
+
+
+
+*/

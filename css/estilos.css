@@ -1,0 +1,53 @@
+/* mobile first */
+
+body{
+  background: #E8E8E8;
+}
+.container{
+  padding:0 10%; /*nao perco espaço nas laterais no celular */
+}
+/*.cabecalho{
+  background: #0082c7;
+}*/
+#mudaLayout{
+  display: none;
+}
+.mural{
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mural--linhas{
+  flex-direction: column;
+}
+
+.mural--linhas .cartao{
+  flex-basis: auto;
+  width: auto;
+  display: block;
+}
+.cartao{
+  background: #EBEF40;
+  margin: 16px;
+  padding: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  flex-basis: 190px;
+  flex-grow: 1;
+  position: relative;
+}
+
+@media (min-width: 560px){ /* telas maiores que 560px usam os valores abaixo */
+  /* media screen - padrao ou media print*/
+  /* media fica embaixo para sobrescrever o que estiver em cima que é mobile */
+#mudaLayout{
+  display: inline-block;
+}
+
+  .cartao{
+    width: 190px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}

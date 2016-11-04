@@ -1,0 +1,17 @@
+.cartao .opcoesDoCartao-opcao {
+  opacity: 0;
+  transition: opacity .02s ease;
+}
+
+.cartao:hover .opcoesDoCartao-opcao,
+.cartao:focus .opcoesDoCartao-opcao,
+.cartao .opcoesDoCartao:focus .opcoesDoCartao-opcao,
+.cartao .opcoesDoCartao-opcao:focus {
+  opacity: 1; /*mostra*/
+}
+
+.cartao:focus,
+.cartao:hover {
+  outline:none,inherit;
+  transform: scale(1.1);
+}
